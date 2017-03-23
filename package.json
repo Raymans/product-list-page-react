@@ -1,0 +1,23 @@
+{
+  "name": "test-bootstrap-table",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-atlas": "file:C:/dev/raptor/react-atlas/packages/react-atlas",
+    "react-atlas-default-theme": "file:C:/dev/raptor/react-atlas/packages/react-atlas-default-theme",
+    "react-atlas-core": "file:C:/dev/raptor/react-atlas/packages/react-atlas-core"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean": "rimraf node_modules/react-atlas && rimraf node_modules/react-atlas-core && rimraf node_modules/react-atlas-default-theme",
+    "relaunch": "npm run clean && npm install && react-scripts start"
+  }
+}
