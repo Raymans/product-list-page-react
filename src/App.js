@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import './reactAtlas.min.css';
+import 'react-atlas-default-theme/lib/reactAtlas.min.css';
 import {Table, TableHeaderColumn} from 'react-atlas'
 
 const products = [];
@@ -11,7 +11,7 @@ function addProducts(quantity) {
         const id = startId + i;
         products.push({
             id: id,
-            name: 'Item name raymans ' + id,
+            name: 'Item name ' + id,
             price: 2100 + i
         });
     }
